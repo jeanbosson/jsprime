@@ -1,5 +1,19 @@
-const nombres = ['un', 'deux', 'trois'];
+let utilisateurs = new Map([
+    // ["prenom", "bosson"],
+    // ["nom","jean"]
+]);
+    utilisateurs.set("mark",{
+        email: "bosson@gmail.com",
+        poste: "informaticien",
 
-const nombresAmeliores = [...nombres, 'quatres', 'cinq'];
+    });
+// utilisateurs.set("sex","mal");
+// utilisateurs.delete("prenom");
+utilisateurs.set(
+    "yose",{
+        em: "b22@mail.com",
+        nom:"jule",
+    }
+);
 
-console.log(nombresAmeliores);
+console.log(utilisateurs);
